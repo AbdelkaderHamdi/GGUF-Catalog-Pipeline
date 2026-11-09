@@ -6,7 +6,7 @@ import argparse
 from datetime import datetime, timezone
 from pathlib import Path
 
-from validator import validate_models
+from src.validator import validate_models
 
 
 ROOT = Path(__file__).resolve().parent.parent
