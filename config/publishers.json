@@ -1,0 +1,17 @@
+{
+  "publishers": [
+    "bartowski",
+    "unsloth",
+    "lmstudio-community"
+  ],
+  "min_downloads": 100,
+  "max_age_days": 365,
+  "accepted_licenses": [
+    "apache-2.0",
+    "mit",
+    "llama3.1",
+    "llama3.2",
+    "llama3.3"
+  ],
+  "max_repositories": 100
+}

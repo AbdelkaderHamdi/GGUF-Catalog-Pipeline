@@ -1,0 +1,2021 @@
+[
+  {
+    "repo_id": "unsloth/Qwen3.8-27B-GGUF",
+    "publisher": "unsloth",
+    "downloads": 6069455,
+    "last_modified": "2026-08-20T12:04:25+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "qwen3_5",
+      "unsloth",
+      "base_model:Qwen/Qwen3.8-27B",
+      "base_model:quantized:Qwen/Qwen3.8-27B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/gemma-4-12b-it-GGUF",
+    "publisher": "unsloth",
+    "downloads": 2480515,
+    "last_modified": "2026-07-17T12:52:56+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "gemma4",
+      "unsloth",
+      "gemma",
+      "google",
+      "gemma4_unified",
+      "image-text-to-text",
+      "base_model:google/gemma-4-12B-it",
+      "base_model:quantized:google/gemma-4-12B-it",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Qwen3.6-35B-A3B-MTP-GGUF",
+    "publisher": "unsloth",
+    "downloads": 2108355,
+    "last_modified": "2026-05-20T08:48:17+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "transformers",
+      "gguf",
+      "unsloth",
+      "qwen",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.6-35B-A3B",
+      "base_model:quantized:Qwen/Qwen3.6-35B-A3B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/gemma-4-26B-A4B-it-GGUF",
+    "publisher": "unsloth",
+    "downloads": 2018954,
+    "last_modified": "2026-07-17T13:00:49+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "gemma4",
+      "unsloth",
+      "gemma",
+      "google",
+      "image-text-to-text",
+      "base_model:google/gemma-4-26B-A4B-it",
+      "base_model:quantized:google/gemma-4-26B-A4B-it",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Qwen3.5-9B-GGUF",
+    "publisher": "unsloth",
+    "downloads": 1789168,
+    "last_modified": "2026-03-02T14:08:36+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "transformers",
+      "gguf",
+      "unsloth",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.5-9B",
+      "base_model:quantized:Qwen/Qwen3.5-9B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Qwen3.6-35B-A3B-GGUF",
+    "publisher": "unsloth",
+    "downloads": 1630511,
+    "last_modified": "2026-04-20T12:42:25+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "transformers",
+      "gguf",
+      "unsloth",
+      "qwen",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.6-35B-A3B",
+      "base_model:quantized:Qwen/Qwen3.6-35B-A3B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Qwen3.5-4B-GGUF",
+    "publisher": "unsloth",
+    "downloads": 1522811,
+    "last_modified": "2026-03-02T14:08:17+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "transformers",
+      "gguf",
+      "unsloth",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.5-4B",
+      "base_model:quantized:Qwen/Qwen3.5-4B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/DeepSeek-V4.1-Flash-1017-GGUF",
+    "publisher": "unsloth",
+    "downloads": 1130103,
+    "last_modified": "2026-11-02T15:03:31+00:00",
+    "license": "mit",
+    "tags": [
+      "gguf",
+      "deepseek",
+      "deepseek_v41",
+      "unsloth",
+      "image-text-to-text",
+      "base_model:deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "base_model:quantized:deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "license:mit",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "lmstudio-community/Qwen3.8-27B-GGUF",
+    "publisher": "lmstudio-community",
+    "downloads": 1101664,
+    "last_modified": "2026-08-14T15:10:57+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "base_model:Qwen/Qwen3.8-27B",
+      "base_model:quantized:Qwen/Qwen3.8-27B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Qwen-Image-Edit-2511-GGUF",
+    "publisher": "unsloth",
+    "downloads": 971765,
+    "last_modified": "2026-10-29T10:15:39+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "quantized",
+      "unsloth",
+      "qwen",
+      "image-to-image",
+      "en",
+      "zh",
+      "arxiv:2508.02324",
+      "base_model:Qwen/Qwen-Image-Edit-2511",
+      "base_model:quantized:Qwen/Qwen-Image-Edit-2511",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Z-Image-Turbo-GGUF",
+    "publisher": "unsloth",
+    "downloads": 963201,
+    "last_modified": "2026-10-29T08:24:01+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "ggml",
+      "gguf",
+      "quantized",
+      "unsloth",
+      "text-to-image",
+      "en",
+      "arxiv:2511.22699",
+      "arxiv:2511.22677",
+      "arxiv:2511.13649",
+      "base_model:Tongyi-MAI/Z-Image-Turbo",
+      "base_model:quantized:Tongyi-MAI/Z-Image-Turbo",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Muse-Glimmer-30B-GGUF",
+    "publisher": "unsloth",
+    "downloads": 907734,
+    "last_modified": "2026-08-10T17:24:23+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "transformers",
+      "gguf",
+      "unsloth",
+      "meta",
+      "image-text-to-text",
+      "arxiv:2504.13181",
+      "arxiv:2602.06036",
+      "base_model:meta-models/Muse-Glimmer-30B",
+      "base_model:quantized:meta-models/Muse-Glimmer-30B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/GLM-5.3-Flash-GGUF",
+    "publisher": "unsloth",
+    "downloads": 817651,
+    "last_modified": "2026-10-05T22:23:39+00:00",
+    "license": "mit",
+    "tags": [
+      "gguf",
+      "unsloth",
+      "glm5_next",
+      "text-generation",
+      "en",
+      "zh",
+      "arxiv:2602.15763",
+      "base_model:zai-org/GLM-5.3-Flash",
+      "base_model:quantized:zai-org/GLM-5.3-Flash",
+      "license:mit",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "lmstudio-community/Qwen3.5-9B-GGUF",
+    "publisher": "lmstudio-community",
+    "downloads": 689365,
+    "last_modified": "2026-03-02T13:38:43+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "base_model:Qwen/Qwen3.5-9B",
+      "base_model:quantized:Qwen/Qwen3.5-9B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/gemma-4-E4B-it-GGUF",
+    "publisher": "unsloth",
+    "downloads": 677666,
+    "last_modified": "2026-07-17T12:49:21+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "gemma4",
+      "unsloth",
+      "gemma",
+      "google",
+      "image-text-to-text",
+      "base_model:google/gemma-4-E4B-it",
+      "base_model:quantized:google/gemma-4-E4B-it",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/gemma-4-E2B-it-GGUF",
+    "publisher": "unsloth",
+    "downloads": 641148,
+    "last_modified": "2026-07-17T12:46:32+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "gemma4",
+      "unsloth",
+      "gemma",
+      "google",
+      "image-text-to-text",
+      "base_model:google/gemma-4-E2B-it",
+      "base_model:quantized:google/gemma-4-E2B-it",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/gpt-oss-20b-GGUF",
+    "publisher": "unsloth",
+    "downloads": 624191,
+    "last_modified": "2025-12-19T01:39:27+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "transformers",
+      "gguf",
+      "gpt_oss",
+      "text-generation",
+      "openai",
+      "unsloth",
+      "base_model:openai/gpt-oss-20b",
+      "base_model:quantized:openai/gpt-oss-20b",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Ornith-1.5-122B-GGUF",
+    "publisher": "unsloth",
+    "downloads": 593201,
+    "last_modified": "2026-10-21T20:05:20+00:00",
+    "license": "mit",
+    "tags": [
+      "gguf",
+      "ornith",
+      "qwen3_5_moe",
+      "unsloth",
+      "text-generation",
+      "base_model:ornith-ai/Ornith-1.5-122B",
+      "base_model:quantized:ornith-ai/Ornith-1.5-122B",
+      "license:mit",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "lmstudio-community/gemma-4-E4B-it-GGUF",
+    "publisher": "lmstudio-community",
+    "downloads": 538874,
+    "last_modified": "2026-07-20T21:41:45+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "base_model:google/gemma-4-E4B-it",
+      "base_model:quantized:google/gemma-4-E4B-it",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Qwen3.5-2B-GGUF",
+    "publisher": "unsloth",
+    "downloads": 489160,
+    "last_modified": "2026-03-02T14:07:35+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "transformers",
+      "gguf",
+      "unsloth",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.5-2B",
+      "base_model:quantized:Qwen/Qwen3.5-2B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
+    "publisher": "unsloth",
+    "downloads": 485553,
+    "last_modified": "2026-01-30T06:29:38+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "transformers",
+      "gguf",
+      "unsloth",
+      "qwen3",
+      "qwen",
+      "text-generation",
+      "arxiv:2505.09388",
+      "base_model:Qwen/Qwen3-Coder-30B-A3B-Instruct",
+      "base_model:quantized:Qwen/Qwen3-Coder-30B-A3B-Instruct",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/FLUX.2-klein-4B-GGUF",
+    "publisher": "unsloth",
+    "downloads": 480858,
+    "last_modified": "2026-10-29T08:34:08+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "ggml",
+      "gguf",
+      "text-to-image",
+      "unsloth",
+      "image-editing",
+      "flux",
+      "diffusion-single-file",
+      "image-to-image",
+      "en",
+      "base_model:black-forest-labs/FLUX.2-klein-4B",
+      "base_model:quantized:black-forest-labs/FLUX.2-klein-4B",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Qwen-Image-2512-GGUF",
+    "publisher": "unsloth",
+    "downloads": 419667,
+    "last_modified": "2026-10-29T10:37:34+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "quantized",
+      "unsloth",
+      "qwen",
+      "text-to-image",
+      "en",
+      "zh",
+      "arxiv:2508.02324",
+      "base_model:Qwen/Qwen-Image-2512",
+      "base_model:quantized:Qwen/Qwen-Image-2512",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Ornith-1.0-9B-GGUF",
+    "publisher": "unsloth",
+    "downloads": 417763,
+    "last_modified": "2026-07-18T05:20:59+00:00",
+    "license": "mit",
+    "tags": [
+      "gguf",
+      "unsloth",
+      "qwen3_5_moe",
+      "text-generation",
+      "base_model:ornith-ai/Ornith-1.0-9B",
+      "base_model:quantized:ornith-ai/Ornith-1.0-9B",
+      "license:mit",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/gemma-4-31B-it-GGUF",
+    "publisher": "unsloth",
+    "downloads": 404506,
+    "last_modified": "2026-07-17T13:09:42+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "gemma4",
+      "unsloth",
+      "gemma",
+      "google",
+      "image-text-to-text",
+      "base_model:google/gemma-4-31B-it",
+      "base_model:quantized:google/gemma-4-31B-it",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/gemma-4-E2B-it-qat-mobile-GGUF",
+    "publisher": "unsloth",
+    "downloads": 403874,
+    "last_modified": "2026-07-17T12:36:06+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "transformers",
+      "gguf",
+      "gemma4",
+      "image-text-to-text",
+      "unsloth",
+      "gemma",
+      "google",
+      "any-to-any",
+      "base_model:google/gemma-4-E2B-it-qat-mobile-transformers",
+      "base_model:quantized:google/gemma-4-E2B-it-qat-mobile-transformers",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Wan2.2-TI2V-5B-GGUF",
+    "publisher": "unsloth",
+    "downloads": 390770,
+    "last_modified": "2026-08-06T05:39:01+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "ti2v",
+      "text-to-video",
+      "en",
+      "zh",
+      "base_model:Wan-AI/Wan2.2-TI2V-5B",
+      "base_model:quantized:Wan-AI/Wan2.2-TI2V-5B",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Inkling-Small-GGUF",
+    "publisher": "unsloth",
+    "downloads": 378732,
+    "last_modified": "2026-07-31T03:56:12+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "conversational",
+      "image-text-to-text",
+      "audio-text-to-text",
+      "moe",
+      "unsloth",
+      "inkling_mm_model",
+      "base_model:thinkingmachines/Inkling-Small",
+      "base_model:quantized:thinkingmachines/Inkling-Small",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Qwen3.5-35B-A3B-GGUF",
+    "publisher": "unsloth",
+    "downloads": 341169,
+    "last_modified": "2026-03-05T17:25:50+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "qwen3_5_moe",
+      "unsloth",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.5-35B-A3B",
+      "base_model:quantized:Qwen/Qwen3.5-35B-A3B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Qwen3.5-0.8B-GGUF",
+    "publisher": "unsloth",
+    "downloads": 332567,
+    "last_modified": "2026-03-02T14:08:04+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "transformers",
+      "gguf",
+      "unsloth",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.5-0.8B",
+      "base_model:quantized:Qwen/Qwen3.5-0.8B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/flint-GGUF",
+    "publisher": "unsloth",
+    "downloads": 308066,
+    "last_modified": "2026-10-21T23:54:26+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "flint",
+      "unsloth",
+      "text-generation",
+      "base_model:RecursiveSI/flint",
+      "base_model:quantized:RecursiveSI/flint",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/GLM-4.7-Flash-GGUF",
+    "publisher": "unsloth",
+    "downloads": 295735,
+    "last_modified": "2026-02-12T20:47:50+00:00",
+    "license": "mit",
+    "tags": [
+      "transformers",
+      "gguf",
+      "unsloth",
+      "text-generation",
+      "en",
+      "zh",
+      "arxiv:2508.06471",
+      "base_model:zai-org/GLM-4.7-Flash",
+      "base_model:quantized:zai-org/GLM-4.7-Flash",
+      "license:mit",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "lmstudio-community/gemma-4-12B-it-QAT-GGUF",
+    "publisher": "lmstudio-community",
+    "downloads": 290216,
+    "last_modified": "2026-07-20T21:55:47+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "base_model:google/gemma-4-12B-it-qat-q4_0-unquantized",
+      "base_model:quantized:google/gemma-4-12B-it-qat-q4_0-unquantized",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "bartowski/Qwen3.8-27B-GGUF",
+    "publisher": "bartowski",
+    "downloads": 277731,
+    "last_modified": "2026-10-13T15:05:45+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.8-27B",
+      "base_model:quantized:Qwen/Qwen3.8-27B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "bartowski/Kwaipilot_KAT-Coder-V2.5-Dev-GGUF",
+    "publisher": "bartowski",
+    "downloads": 256819,
+    "last_modified": "2026-07-24T02:46:59+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "code",
+      "agent",
+      "agentic-coding",
+      "moe",
+      "coding",
+      "text-generation",
+      "en",
+      "zh",
+      "base_model:Kwaipilot/KAT-Coder-V2.5-Dev",
+      "base_model:quantized:Kwaipilot/KAT-Coder-V2.5-Dev",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Qwen3.5-27B-GGUF",
+    "publisher": "unsloth",
+    "downloads": 254455,
+    "last_modified": "2026-03-05T16:31:31+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "unsloth",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.5-27B",
+      "base_model:quantized:Qwen/Qwen3.5-27B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "lmstudio-community/Bonsai-27B-GGUF",
+    "publisher": "lmstudio-community",
+    "downloads": 250252,
+    "last_modified": "2026-07-30T20:09:12+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "llama.cpp",
+      "multimodal",
+      "qwen35",
+      "bonsai",
+      "1-bit",
+      "base_model:prism-ml/Bonsai-27B-unpacked",
+      "base_model:quantized:prism-ml/Bonsai-27B-unpacked",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Qwen3.6-27B-GGUF",
+    "publisher": "unsloth",
+    "downloads": 249994,
+    "last_modified": "2026-04-22T16:01:39+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "transformers",
+      "gguf",
+      "unsloth",
+      "qwen",
+      "qwen3_5",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.6-27B",
+      "base_model:quantized:Qwen/Qwen3.6-27B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "bartowski/Qwen_Qwen3.6-35B-A3B-GGUF",
+    "publisher": "bartowski",
+    "downloads": 234828,
+    "last_modified": "2026-05-20T02:50:29+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.6-35B-A3B",
+      "base_model:quantized:Qwen/Qwen3.6-35B-A3B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/North-Mini-Code-1.0-GGUF",
+    "publisher": "unsloth",
+    "downloads": 233408,
+    "last_modified": "2026-06-10T12:34:56+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "transformers",
+      "gguf",
+      "conversational",
+      "unsloth",
+      "chat",
+      "code",
+      "agent",
+      "base_model:CohereLabs/North-Mini-Code-1.0",
+      "base_model:quantized:CohereLabs/North-Mini-Code-1.0",
+      "license:apache-2.0",
+      "region:us",
+      "imatrix"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Z-Image-GGUF",
+    "publisher": "unsloth",
+    "downloads": 223824,
+    "last_modified": "2026-10-29T10:04:33+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "ggml",
+      "diffusers",
+      "safetensors",
+      "gguf",
+      "unsloth",
+      "quantized",
+      "text-to-image",
+      "en",
+      "arxiv:2511.22699",
+      "base_model:Tongyi-MAI/Z-Image",
+      "base_model:quantized:Tongyi-MAI/Z-Image",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  },
+  {
+    "repo_id": "bartowski/orcarouter_Qwen3.8-27B-Uncensored-GGUF",
+    "publisher": "bartowski",
+    "downloads": 210017,
+    "last_modified": "2026-08-27T02:34:32+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "abliterated",
+      "qwen",
+      "qwen3",
+      "qwen3.8",
+      "uncensored",
+      "ai-red-team",
+      "red-teaming",
+      "bf16",
+      "post-training",
+      "fine-tuning",
+      "vision-language",
+      "function-calling",
+      "reasoning",
+      "mtp",
+      "image-text-to-text",
+      "en",
+      "zh",
+      "base_model:orcarouter/Qwen3.8-27B-Uncensored",
+      "base_model:quantized:orcarouter/Qwen3.8-27B-Uncensored",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "lmstudio-community/Qwen3.5-4B-GGUF",
+    "publisher": "lmstudio-community",
+    "downloads": 201853,
+    "last_modified": "2026-03-02T13:36:47+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "base_model:Qwen/Qwen3.5-4B",
+      "base_model:quantized:Qwen/Qwen3.5-4B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/gemma-4-12B-it-qat-GGUF",
+    "publisher": "unsloth",
+    "downloads": 199246,
+    "last_modified": "2026-07-17T12:37:30+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "transformers",
+      "gguf",
+      "gemma4",
+      "unsloth",
+      "gemma",
+      "google",
+      "any-to-any",
+      "base_model:google/gemma-4-12B-it-qat-q4_0-unquantized",
+      "base_model:quantized:google/gemma-4-12B-it-qat-q4_0-unquantized",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/inkling-GGUF",
+    "publisher": "unsloth",
+    "downloads": 195230,
+    "last_modified": "2026-07-16T13:16:01+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "conversational",
+      "image-text-to-text",
+      "audio-text-to-text",
+      "moe",
+      "unsloth",
+      "inkling_mm_model",
+      "base_model:thinkingmachines/Inkling",
+      "base_model:quantized:thinkingmachines/Inkling",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  {
+    "repo_id": "unsloth/gemma-4-26B-A4B-it-qat-GGUF",
+    "publisher": "unsloth",
+    "downloads": 190966,
+    "last_modified": "2026-07-17T12:43:18+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "transformers",
+      "gguf",
+      "gemma4",
+      "image-text-to-text",
+      "unsloth",
+      "gemma",
+      "google",
+      "base_model:google/gemma-4-26B-A4B-it-qat-q4_0-unquantized",
+      "base_model:quantized:google/gemma-4-26B-A4B-it-qat-q4_0-unquantized",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/bge-small-en-v1.5-GGUF",
+    "publisher": "unsloth",
+    "downloads": 184868,
+    "last_modified": "2026-06-09T11:00:55+00:00",
+    "license": "mit",
+    "tags": [
+      "sentence-transformers",
+      "gguf",
+      "feature-extraction",
+      "sentence-similarity",
+      "transformers",
+      "mteb",
+      "en",
+      "arxiv:2401.03462",
+      "arxiv:2312.15503",
+      "arxiv:2311.13534",
+      "arxiv:2310.07554",
+      "arxiv:2309.07597",
+      "license:mit",
+      "model-index",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  {
+    "repo_id": "lmstudio-community/Qwen3.6-35B-A3B-GGUF",
+    "publisher": "lmstudio-community",
+    "downloads": 180004,
+    "last_modified": "2026-04-16T15:49:24+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "base_model:Qwen/Qwen3.6-35B-A3B",
+      "base_model:quantized:Qwen/Qwen3.6-35B-A3B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "bartowski/Qwen_Qwen3.5-9B-GGUF",
+    "publisher": "bartowski",
+    "downloads": 179348,
+    "last_modified": "2026-05-19T20:15:34+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.5-9B",
+      "base_model:quantized:Qwen/Qwen3.5-9B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Qwen3-Coder-Next-GGUF",
+    "publisher": "unsloth",
+    "downloads": 176846,
+    "last_modified": "2026-03-06T14:38:33+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "qwen3_next",
+      "unsloth",
+      "qwen",
+      "qwen3",
+      "text-generation",
+      "base_model:Qwen/Qwen3-Coder-Next",
+      "base_model:quantized:Qwen/Qwen3-Coder-Next",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Qwen-AgentWorld-35B-A3B-GGUF",
+    "publisher": "unsloth",
+    "downloads": 169008,
+    "last_modified": "2026-06-25T05:51:07+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "transformers",
+      "gguf",
+      "qwen",
+      "unsloth",
+      "world-model",
+      "agent",
+      "environment-simulation",
+      "text-generation",
+      "dataset:Qwen/AgentWorldBench",
+      "arxiv:2606.24597",
+      "base_model:Qwen/Qwen-AgentWorld-35B-A3B",
+      "base_model:quantized:Qwen/Qwen-AgentWorld-35B-A3B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/DeepSeek-V4-Flash-0731-GGUF",
+    "publisher": "unsloth",
+    "downloads": 149588,
+    "last_modified": "2026-08-06T14:54:45+00:00",
+    "license": "mit",
+    "tags": [
+      "gguf",
+      "unsloth",
+      "deepseek_v4",
+      "deepseek",
+      "arxiv:2606.19348",
+      "base_model:deepseek-ai/DeepSeek-V4-Flash-0731",
+      "base_model:quantized:deepseek-ai/DeepSeek-V4-Flash-0731",
+      "license:mit",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/GLM-4.5-Air-GGUF",
+    "publisher": "unsloth",
+    "downloads": 143771,
+    "last_modified": "2025-12-25T17:45:13+00:00",
+    "license": "mit",
+    "tags": [
+      "transformers",
+      "gguf",
+      "unsloth",
+      "text-generation",
+      "en",
+      "zh",
+      "base_model:zai-org/GLM-4.5-Air",
+      "base_model:quantized:zai-org/GLM-4.5-Air",
+      "license:mit",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "bartowski/Nanbeige_Nanbeige4.3-33B-GGUF",
+    "publisher": "bartowski",
+    "downloads": 139628,
+    "last_modified": "2026-10-25T15:32:07+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "llm",
+      "nanbeige",
+      "text-generation",
+      "en",
+      "zh",
+      "base_model:Nanbeige/Nanbeige4.3-33B",
+      "base_model:quantized:Nanbeige/Nanbeige4.3-33B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Qwen-Image-GGUF",
+    "publisher": "unsloth",
+    "downloads": 135983,
+    "last_modified": "2026-10-28T15:19:10+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "ggml",
+      "gguf",
+      "quantized",
+      "text-to-image",
+      "en",
+      "zh",
+      "arxiv:2508.02324",
+      "base_model:Qwen/Qwen-Image",
+      "base_model:quantized:Qwen/Qwen-Image",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  },
+  {
+    "repo_id": "unsloth/MOSS-Image-SFT-GGUF",
+    "publisher": "unsloth",
+    "downloads": 133759,
+    "last_modified": "2026-10-22T08:41:19+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "unsloth",
+      "quantized",
+      "moss-image",
+      "text-to-image",
+      "en",
+      "zh",
+      "arxiv:2610.23374",
+      "base_model:OpenMOSS-Team/MOSS-Image-SFT",
+      "base_model:quantized:OpenMOSS-Team/MOSS-Image-SFT",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  },
+  {
+    "repo_id": "bartowski/Qwen_Qwen3.5-4B-GGUF",
+    "publisher": "bartowski",
+    "downloads": 132066,
+    "last_modified": "2026-05-19T19:44:11+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.5-4B",
+      "base_model:quantized:Qwen/Qwen3.5-4B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "lmstudio-community/gemma-4-12B-it-GGUF",
+    "publisher": "lmstudio-community",
+    "downloads": 131727,
+    "last_modified": "2026-07-20T21:57:22+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "base_model:google/gemma-4-12B-it",
+      "base_model:quantized:google/gemma-4-12B-it",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "lmstudio-community/gemma-4-26B-A4B-it-QAT-GGUF",
+    "publisher": "lmstudio-community",
+    "downloads": 131377,
+    "last_modified": "2026-07-20T22:00:48+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "base_model:google/gemma-4-26B-A4B-it-qat-q4_0-unquantized",
+      "base_model:quantized:google/gemma-4-26B-A4B-it-qat-q4_0-unquantized",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "lmstudio-community/gemma-4-E2B-it-GGUF",
+    "publisher": "lmstudio-community",
+    "downloads": 118583,
+    "last_modified": "2026-07-21T16:15:30+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "base_model:google/gemma-4-E2B-it",
+      "base_model:quantized:google/gemma-4-E2B-it",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/gemma-4-E4B-it-qat-GGUF",
+    "publisher": "unsloth",
+    "downloads": 118151,
+    "last_modified": "2026-07-17T12:37:02+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "transformers",
+      "gguf",
+      "gemma4",
+      "image-text-to-text",
+      "unsloth",
+      "gemma",
+      "google",
+      "any-to-any",
+      "base_model:google/gemma-4-E4B-it-qat-q4_0-unquantized",
+      "base_model:quantized:google/gemma-4-E4B-it-qat-q4_0-unquantized",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/embeddinggemma-2-GGUF",
+    "publisher": "unsloth",
+    "downloads": 117191,
+    "last_modified": "2026-10-07T07:09:29+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "embedding",
+      "feature-extraction",
+      "multimodal-embedding",
+      "multimodal",
+      "vision",
+      "audio",
+      "video",
+      "image-feature-extraction",
+      "audio-feature-extraction",
+      "video-feature-extraction",
+      "sentence-similarity",
+      "unsloth",
+      "multilingual",
+      "base_model:google/embeddinggemma-2",
+      "base_model:quantized:google/embeddinggemma-2",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Qwen3.5-4B-MTP-GGUF",
+    "publisher": "unsloth",
+    "downloads": 110467,
+    "last_modified": "2026-05-16T12:38:58+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "transformers",
+      "gguf",
+      "unsloth",
+      "qwen",
+      "qwen3_5",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.5-4B",
+      "base_model:quantized:Qwen/Qwen3.5-4B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Qwen3.5-9B-MTP-GGUF",
+    "publisher": "unsloth",
+    "downloads": 101098,
+    "last_modified": "2026-05-16T12:39:00+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "transformers",
+      "gguf",
+      "unsloth",
+      "qwen",
+      "qwen3_5",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.5-9B",
+      "base_model:quantized:Qwen/Qwen3.5-9B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "bartowski/google_gemma-4-26B-A4B-it-GGUF",
+    "publisher": "bartowski",
+    "downloads": 100043,
+    "last_modified": "2026-07-27T04:17:23+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "image-text-to-text",
+      "base_model:google/gemma-4-26B-A4B-it",
+      "base_model:quantized:google/gemma-4-26B-A4B-it",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/gemma-4-31B-it-qat-GGUF",
+    "publisher": "unsloth",
+    "downloads": 93152,
+    "last_modified": "2026-07-17T12:44:49+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "transformers",
+      "gguf",
+      "gemma4",
+      "image-text-to-text",
+      "unsloth",
+      "gemma",
+      "google",
+      "base_model:google/gemma-4-31B-it-qat-q4_0-unquantized",
+      "base_model:quantized:google/gemma-4-31B-it-qat-q4_0-unquantized",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/FLUX.1-schnell-GGUF",
+    "publisher": "unsloth",
+    "downloads": 91399,
+    "last_modified": "2026-10-30T09:03:30+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "text-to-image",
+      "image-generation",
+      "flux",
+      "en",
+      "base_model:black-forest-labs/FLUX.1-schnell",
+      "base_model:quantized:black-forest-labs/FLUX.1-schnell",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  },
+  {
+    "repo_id": "lmstudio-community/gemma-4-31B-it-QAT-GGUF",
+    "publisher": "lmstudio-community",
+    "downloads": 90487,
+    "last_modified": "2026-07-20T22:10:07+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "base_model:google/gemma-4-31B-it-qat-q4_0-unquantized",
+      "base_model:quantized:google/gemma-4-31B-it-qat-q4_0-unquantized",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/DeepSeek-V4-Pro-0813-GGUF",
+    "publisher": "unsloth",
+    "downloads": 89508,
+    "last_modified": "2026-08-14T04:01:57+00:00",
+    "license": "mit",
+    "tags": [
+      "gguf",
+      "deepseek_v4",
+      "unsloth",
+      "deepseek",
+      "arxiv:2606.19348",
+      "base_model:deepseek-ai/DeepSeek-V4-Pro-0813",
+      "base_model:quantized:deepseek-ai/DeepSeek-V4-Pro-0813",
+      "license:mit",
+      "endpoints_compatible",
+      "fp8",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Qwen3-Next-80B-A3B-Instruct-GGUF",
+    "publisher": "unsloth",
+    "downloads": 81519,
+    "last_modified": "2026-01-14T06:27:11+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "transformers",
+      "gguf",
+      "qwen3_next",
+      "text-generation",
+      "unsloth",
+      "arxiv:2309.00071",
+      "arxiv:2404.06654",
+      "arxiv:2505.09388",
+      "arxiv:2501.15383",
+      "base_model:Qwen/Qwen3-Next-80B-A3B-Instruct",
+      "base_model:quantized:Qwen/Qwen3-Next-80B-A3B-Instruct",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Qwen3.5-122B-A10B-GGUF",
+    "publisher": "unsloth",
+    "downloads": 79685,
+    "last_modified": "2026-03-05T16:22:00+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "transformers",
+      "gguf",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "unsloth",
+      "base_model:Qwen/Qwen3.5-122B-A10B",
+      "base_model:quantized:Qwen/Qwen3.5-122B-A10B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/GLM-4.6V-Flash-GGUF",
+    "publisher": "unsloth",
+    "downloads": 77652,
+    "last_modified": "2025-12-27T11:17:13+00:00",
+    "license": "mit",
+    "tags": [
+      "transformers",
+      "gguf",
+      "unsloth",
+      "image-text-to-text",
+      "zh",
+      "en",
+      "arxiv:2507.01006",
+      "base_model:zai-org/GLM-4.6V-Flash",
+      "base_model:quantized:zai-org/GLM-4.6V-Flash",
+      "license:mit",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "bartowski/endless-frontier_BigBang-v1-GGUF",
+    "publisher": "bartowski",
+    "downloads": 76535,
+    "last_modified": "2026-08-07T18:54:37+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "image-text-to-text",
+      "en",
+      "base_model:endless-frontier/BigBang-v1",
+      "base_model:quantized:endless-frontier/BigBang-v1",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "lmstudio-community/gemma-4-26B-A4B-it-GGUF",
+    "publisher": "lmstudio-community",
+    "downloads": 70538,
+    "last_modified": "2026-07-20T22:01:35+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "base_model:google/gemma-4-26B-A4B-it",
+      "base_model:quantized:google/gemma-4-26B-A4B-it",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Qwen3.5-122B-A10B-MTP-GGUF",
+    "publisher": "unsloth",
+    "downloads": 68137,
+    "last_modified": "2026-05-18T03:29:50+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "transformers",
+      "gguf",
+      "unsloth",
+      "qwen",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.5-122B-A10B",
+      "base_model:quantized:Qwen/Qwen3.5-122B-A10B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/gemma-4-E2B-it-qat-GGUF",
+    "publisher": "unsloth",
+    "downloads": 66803,
+    "last_modified": "2026-07-17T12:36:37+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "transformers",
+      "gguf",
+      "gemma4",
+      "image-text-to-text",
+      "unsloth",
+      "gemma",
+      "google",
+      "any-to-any",
+      "base_model:google/gemma-4-E2B-it-qat-q4_0-unquantized",
+      "base_model:quantized:google/gemma-4-E2B-it-qat-q4_0-unquantized",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "bartowski/google_gemma-4-E2B-it-GGUF",
+    "publisher": "bartowski",
+    "downloads": 65892,
+    "last_modified": "2026-07-26T23:10:47+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "image-text-to-text",
+      "base_model:google/gemma-4-E2B-it",
+      "base_model:quantized:google/gemma-4-E2B-it",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "lmstudio-community/Qwen3.5-35B-A3B-GGUF",
+    "publisher": "lmstudio-community",
+    "downloads": 64044,
+    "last_modified": "2026-02-24T19:00:43+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "base_model:Qwen/Qwen3.5-35B-A3B",
+      "base_model:quantized:Qwen/Qwen3.5-35B-A3B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "bartowski/Qwen_Qwen3.5-27B-GGUF",
+    "publisher": "bartowski",
+    "downloads": 62288,
+    "last_modified": "2026-05-19T23:58:42+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.5-27B",
+      "base_model:quantized:Qwen/Qwen3.5-27B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "lmstudio-community/Qwen3.5-2B-GGUF",
+    "publisher": "lmstudio-community",
+    "downloads": 60999,
+    "last_modified": "2026-03-02T13:36:16+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "base_model:Qwen/Qwen3.5-2B",
+      "base_model:quantized:Qwen/Qwen3.5-2B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "unsloth/Qwen3.6-27B-MTP-GGUF",
+    "publisher": "unsloth",
+    "downloads": 58124,
+    "last_modified": "2026-05-26T08:45:52+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "transformers",
+      "gguf",
+      "unsloth",
+      "qwen",
+      "qwen3_5",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.6-27B",
+      "base_model:quantized:Qwen/Qwen3.6-27B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "bartowski/gemma-4-12B-it-GGUF",
+    "publisher": "bartowski",
+    "downloads": 56417,
+    "last_modified": "2026-07-27T06:14:10+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "image-text-to-text",
+      "base_model:google/gemma-4-12B-it",
+      "base_model:quantized:google/gemma-4-12B-it",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "bartowski/google_gemma-4-E4B-it-GGUF",
+    "publisher": "bartowski",
+    "downloads": 56138,
+    "last_modified": "2026-07-26T23:37:21+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "image-text-to-text",
+      "base_model:google/gemma-4-E4B-it",
+      "base_model:quantized:google/gemma-4-E4B-it",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "bartowski/mistralai_Mistral-Small-3.2-24B-Instruct-2506-GGUF",
+    "publisher": "bartowski",
+    "downloads": 55903,
+    "last_modified": "2025-12-19T18:44:58+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "image-text-to-text",
+      "en",
+      "fr",
+      "de",
+      "es",
+      "pt",
+      "it",
+      "ja",
+      "ko",
+      "ru",
+      "zh",
+      "ar",
+      "fa",
+      "id",
+      "ms",
+      "ne",
+      "pl",
+      "ro",
+      "sr",
+      "sv",
+      "tr",
+      "uk",
+      "vi",
+      "hi",
+      "bn",
+      "base_model:mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+      "base_model:quantized:mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+      "license:apache-2.0",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "bartowski/Qwen_Qwen3.6-27B-GGUF",
+    "publisher": "bartowski",
+    "downloads": 52314,
+    "last_modified": "2026-05-20T03:50:15+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.6-27B",
+      "base_model:quantized:Qwen/Qwen3.6-27B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "lmstudio-community/Qwen3.6-27B-GGUF",
+    "publisher": "lmstudio-community",
+    "downloads": 52006,
+    "last_modified": "2026-04-22T14:31:59+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "base_model:Qwen/Qwen3.6-27B",
+      "base_model:quantized:Qwen/Qwen3.6-27B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "bartowski/Qwen_Qwen3.5-2B-GGUF",
+    "publisher": "bartowski",
+    "downloads": 50808,
+    "last_modified": "2026-05-19T19:24:55+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.5-2B",
+      "base_model:quantized:Qwen/Qwen3.5-2B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "bartowski/Ornith-1.5-35B-A3B-GGUF",
+    "publisher": "bartowski",
+    "downloads": 50242,
+    "last_modified": "2026-08-19T22:18:09+00:00",
+    "license": "mit",
+    "tags": [
+      "gguf",
+      "image-text-to-text",
+      "base_model:ornith-ai/Ornith-1.5-35B-A3B",
+      "base_model:quantized:ornith-ai/Ornith-1.5-35B-A3B",
+      "license:mit",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "bartowski/Qwen_Qwen3.5-35B-A3B-GGUF",
+    "publisher": "bartowski",
+    "downloads": 47399,
+    "last_modified": "2026-05-19T23:13:05+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.5-35B-A3B",
+      "base_model:quantized:Qwen/Qwen3.5-35B-A3B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "bartowski/google_gemma-4-31B-it-GGUF",
+    "publisher": "bartowski",
+    "downloads": 41733,
+    "last_modified": "2026-07-27T05:33:21+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "image-text-to-text",
+      "base_model:google/gemma-4-31B-it",
+      "base_model:quantized:google/gemma-4-31B-it",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "lmstudio-community/gemma-4-31B-it-GGUF",
+    "publisher": "lmstudio-community",
+    "downloads": 41112,
+    "last_modified": "2026-07-20T22:01:59+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "base_model:google/gemma-4-31B-it",
+      "base_model:quantized:google/gemma-4-31B-it",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "bartowski/Hcompany_Holo4-35B-A3B-GGUF",
+    "publisher": "bartowski",
+    "downloads": 39739,
+    "last_modified": "2026-09-30T01:17:18+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "multimodal",
+      "computer-use",
+      "agent",
+      "image-text-to-text",
+      "base_model:Hcompany/Holo4-35B-A3B",
+      "base_model:quantized:Hcompany/Holo4-35B-A3B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "bartowski/Qwen_Qwen3.5-0.8B-GGUF",
+    "publisher": "bartowski",
+    "downloads": 38949,
+    "last_modified": "2026-05-19T19:08:35+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "image-text-to-text",
+      "base_model:Qwen/Qwen3.5-0.8B",
+      "base_model:quantized:Qwen/Qwen3.5-0.8B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "bartowski/NousResearch_Arete-27B-GGUF",
+    "publisher": "bartowski",
+    "downloads": 37886,
+    "last_modified": "2026-11-06T22:22:09+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "nous-research",
+      "arete",
+      "supervised-fine-tuning",
+      "value-alignment",
+      "image-text-to-text",
+      "dataset:NousResearch/arete-data-pairs",
+      "base_model:NousResearch/Arete-27B",
+      "base_model:quantized:NousResearch/Arete-27B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "lmstudio-community/Qwen3-Coder-Next-GGUF",
+    "publisher": "lmstudio-community",
+    "downloads": 35701,
+    "last_modified": "2026-02-04T21:39:48+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "base_model:Qwen/Qwen3-Coder-Next",
+      "base_model:quantized:Qwen/Qwen3-Coder-Next",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "bartowski/Altworld_Hemmingway-1-GGUF",
+    "publisher": "bartowski",
+    "downloads": 33751,
+    "last_modified": "2026-09-20T17:00:52+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "qwen3.8",
+      "chat",
+      "creative-writing",
+      "altworld",
+      "text-generation",
+      "en",
+      "base_model:HemmingwayAI/Hemmingway-1",
+      "base_model:quantized:HemmingwayAI/Hemmingway-1",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "lmstudio-community/Devstral-Small-2-24B-Instruct-2512-GGUF",
+    "publisher": "lmstudio-community",
+    "downloads": 32822,
+    "last_modified": "2025-12-10T17:23:46+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "base_model:mistralai/Devstral-Small-2-24B-Instruct-2512",
+      "base_model:quantized:mistralai/Devstral-Small-2-24B-Instruct-2512",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "bartowski/huihui-ai_Qwen3-Coder-Next-abliterated-GGUF",
+    "publisher": "bartowski",
+    "downloads": 30973,
+    "last_modified": "2026-02-10T15:29:06+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "abliterated",
+      "uncensored",
+      "text-generation",
+      "base_model:huihui-ai/Huihui-Qwen3-Coder-Next-abliterated",
+      "base_model:quantized:huihui-ai/Huihui-Qwen3-Coder-Next-abliterated",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "bartowski/mistralai_Devstral-Small-2-24B-Instruct-2512-GGUF",
+    "publisher": "bartowski",
+    "downloads": 30757,
+    "last_modified": "2025-12-09T21:25:08+00:00",
+    "license": "apache-2.0",
+    "tags": [
+      "gguf",
+      "mistral-common",
+      "text-generation",
+      "base_model:mistralai/Devstral-Small-2-24B-Instruct-2512",
+      "base_model:quantized:mistralai/Devstral-Small-2-24B-Instruct-2512",
+      "license:apache-2.0",
+      "region:us",
+      "conversational"
+    ]
+  },
+  {
+    "repo_id": "lmstudio-community/GLM-4.7-Flash-GGUF",
+    "publisher": "lmstudio-community",
+    "downloads": 30729,
+    "last_modified": "2026-01-20T00:40:22+00:00",
+    "license": "mit",
+    "tags": [
+      "gguf",
+      "base_model:zai-org/GLM-4.7-Flash",
+      "base_model:quantized:zai-org/GLM-4.7-Flash",
+      "license:mit",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  }
+]

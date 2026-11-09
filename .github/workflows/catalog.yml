@@ -1,0 +1,66 @@
+
+name: Build and Publish GGUF Catalog
+
+on:
+  schedule:
+    - cron: "17 3 * * 1" # Every Monday at 03:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog-pipeline
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Discover repositories
+        run: python -m src.discover
+
+      - name: Discover GGUF files
+        run: python -m src.file_discovery
+
+      - name: Parse GGUF metadata
+        run: python -m src.gguf_parser
+
+      - name: Validate models
+        run: python -m src.validator
+
+      - name: Build catalog
+        run: python -m src.catalog_builder
+
+      - name: Verify catalog checksum
+        working-directory: output
+        run: sha256sum -c catalog.sha256
+
+      - name: Publish catalog release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: catalog-latest
+          name: Latest GGUF Catalog
+          body: Automatically generated GGUF model catalog.
+          files: |
+            output/catalog.json
+            output/catalog.sha256
+          overwrite_files: true
+          make_latest: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
