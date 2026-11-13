@@ -37,6 +37,9 @@ class ModelEntry(BaseModel):
     license: Optional[str] = None
     last_modified: Optional[str] = None
 
+    head_dim: int = 256
+    kv_bytes_per_element: int = 2
+
 
 def stable_id(repo_id, filename):
     raw = f"{repo_id}\n{filename}"
