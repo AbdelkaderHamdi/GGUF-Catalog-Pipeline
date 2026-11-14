@@ -235,6 +235,7 @@ def extract_metadata(client, url):
     raise ValueError("GGUF header exceeds 64 MB")
 
 
+
 def get_architecture_fields(metadata):
     architecture = metadata.get("general.architecture")
 
@@ -246,13 +247,28 @@ def get_architecture_fields(metadata):
     def get(key):
         return metadata.get(prefix + key)
 
+    key_length = get("attention.key_length")
+    value_length = get("attention.value_length")
+
+    head_dim = None
+
+    if (
+        isinstance(key_length, int)
+        and isinstance(value_length, int)
+        and key_length > 0
+        and key_length == value_length
+    ):
+        head_dim = key_length
+
     return {
         "layers": get("block_count"),
         "attention_heads": get("attention.head_count"),
         "kv_heads": get("attention.head_count_kv"),
         "context_length": get("context_length"),
-        "embedding_length": get("embedding_length")
+        "embedding_length": get("embedding_length"),
+        "head_dim": head_dim,
     }
+
 
 
 def parse_models(limit=None):

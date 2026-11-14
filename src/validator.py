@@ -37,8 +37,8 @@ class ModelEntry(BaseModel):
     license: Optional[str] = None
     last_modified: Optional[str] = None
 
-    head_dim: int = 256
-    kv_bytes_per_element: int = 2
+    head_dim: Optional[int] = None
+    
 
 
 def stable_id(repo_id, filename):
@@ -80,6 +80,7 @@ def validate_models():
                 "model_name": model.get("model_name"),
                 "parameters": model.get("parameters"),
                 "layers": model.get("layers"),
+                "head_dim": model.get("head_dim"),
                 "attention_heads": model.get("attention_heads"),
                 "kv_heads": model.get("kv_heads"),
                 "context_length": model.get("context_length"),
