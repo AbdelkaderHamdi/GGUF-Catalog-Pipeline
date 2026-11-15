@@ -13,5 +13,7 @@
     "llama3.2",
     "llama3.3"
   ],
-  "max_repositories": 100
+  "max_repositories": 100,
+  "max_scan_per_publisher": 1000,
+  "min_valid_models": 25
 }

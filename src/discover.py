@@ -1,8 +1,8 @@
-
-import json
 import argparse
-from pathlib import Path
+import json
 from datetime import datetime, timedelta, timezone
+from itertools import islice
+from pathlib import Path
 
 from huggingface_hub import HfApi
 
@@ -18,134 +18,149 @@ def load_config():
 
 
 def extract_license(model):
-    """Read licence from model-card metadata or Hub tags."""
+    """Read licence from model-card metadata or Hub tags.
+
+    A card that lists several licences is ambiguous, so it is treated as
+    having no usable licence rather than silently picking one.
+    """
 
     card_data = getattr(model, "card_data", None)
 
     if card_data:
-        license_value = getattr(card_data, "license", None)
+        value = getattr(card_data, "license", None)
 
-        if license_value:
-            return str(license_value).lower()
+        if isinstance(value, (list, tuple)):
+            value = value[0] if len(value) == 1 else None
 
-    tags = getattr(model, "tags", []) or []
+        if value:
+            return str(value).lower()
 
-    for tag in tags:
+    for tag in getattr(model, "tags", None) or []:
         if tag.startswith("license:"):
             return tag.split(":", 1)[1].lower()
 
     return None
 
 
+def evaluate_repository(model, publishers, min_downloads, cutoff,
+                        accepted_licenses):
+    """Apply every repository filter.
+
+    Returns (record, None) when accepted, or (None, reason) when rejected.
+    Pure function so the filters can be tested without network access.
+    """
+
+    repo_id = model.id
+
+    if not repo_id or "/" not in repo_id:
+        return None, "invalid repo id"
+
+    author = repo_id.split("/")[0].lower()
+
+    if author not in publishers:
+        return None, "publisher not allowed"
+
+    downloads = model.downloads or 0
+
+    if downloads < min_downloads:
+        return None, "too few downloads"
+
+    last_modified = model.last_modified
+
+    if not last_modified or last_modified < cutoff:
+        return None, "too old"
+
+    license_name = extract_license(model)
+
+    if license_name not in accepted_licenses:
+        return None, f"licence not accepted: {license_name}"
+
+    return {
+        "repo_id": repo_id,
+        "publisher": author,
+        "downloads": downloads,
+        "last_modified": last_modified.isoformat(),
+        "license": license_name,
+        "tags": model.tags or [],
+    }, None
+
+
 def discover_models(limit=None):
     config = load_config()
 
-    publishers = {
-        publisher.lower()
-        for publisher in config["publishers"]
-    }
+    # Sorted: iteration order of a set is not deterministic.
+    publishers = sorted({p.lower() for p in config["publishers"]})
 
     min_downloads = config["min_downloads"]
-    max_age_days = config["max_age_days"]
-
-    accepted_licenses = {
-        license.lower()
-        for license in config["accepted_licenses"]
-    }
-
+    accepted_licenses = {x.lower() for x in config["accepted_licenses"]}
     max_repositories = limit or config["max_repositories"]
+    max_scan = config.get("max_scan_per_publisher", 1000)
 
     cutoff = datetime.now(timezone.utc) - timedelta(
-        days=max_age_days
+        days=config["max_age_days"]
     )
 
     api = HfApi()
 
     print("Querying Hugging Face GGUF models...")
 
-    models = []
+    results = []
+    seen = set()
+    reasons = {}
 
     for publisher in publishers:
         print(f"Discovering: {publisher}")
 
-        publisher_models = api.list_models(
+        # Stream repositories sorted by downloads and apply the filters
+        # while streaming. The previous code truncated to N repositories
+        # *before* filtering, so licence/age filters could leave far fewer
+        # than N even when more eligible repositories existed.
+        stream = api.list_models(
             author=publisher,
             filter="gguf",
             sort="downloads",
-            limit=max_repositories,
             full=True,
-            cardData=True
+            cardData=True,
         )
 
-        models.extend(publisher_models)
+        accepted_here = 0
 
-    results = []
-    seen = set()
+        for model in islice(stream, max_scan):
+            if model.id in seen:
+                continue
 
-    for model in models:
-        repo_id = model.id
+            seen.add(model.id)
 
-        if not repo_id or repo_id in seen:
-            continue
+            record, reason = evaluate_repository(
+                model, set(publishers), min_downloads, cutoff,
+                accepted_licenses,
+            )
 
-        seen.add(repo_id)
+            if record is None:
+                key = reason.split(":")[0]
+                reasons[key] = reasons.get(key, 0) + 1
+                continue
 
-        # Publisher filter
-        author = repo_id.split("/")[0].lower()
+            results.append(record)
+            accepted_here += 1
+            print(f"[ACCEPTED] {record['repo_id']}")
 
-        if author not in publishers:
-            continue
+            if accepted_here >= max_repositories:
+                break
 
-        # Download filter
-        downloads = model.downloads or 0
+    # Sort and cap once, after collecting. Ties broken by repo id so the
+    # output is deterministic.
+    results.sort(key=lambda r: (-r["downloads"], r["repo_id"]))
+    results = results[:max_repositories]
 
-        if downloads < min_downloads:
-            continue
-
-        # Recency filter
-        last_modified = model.last_modified
-
-        if not last_modified or last_modified < cutoff:
-            continue
-
-        # Licence filter
-        license_name = extract_license(model)
-
-        if license_name not in accepted_licenses:
-            continue
-
-        results.append({
-            "repo_id": repo_id,
-            "publisher": author,
-            "downloads": downloads,
-            "last_modified": last_modified.isoformat(),
-            "license": license_name,
-            "tags": model.tags or []
-        })
-        results.sort(
-        key=lambda item: item["downloads"],
-        reverse=True
-        )
-
-        results = results[:max_repositories]
-
-        print(f"[ACCEPTED] {repo_id}")
-
-    OUTPUT_PATH.parent.mkdir(
-        parents=True,
-        exist_ok=True
-    )
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
     with OUTPUT_PATH.open("w", encoding="utf-8") as f:
-        json.dump(
-            results,
-            f,
-            indent=2,
-            ensure_ascii=False
-        )
+        json.dump(results, f, indent=2, ensure_ascii=False)
 
     print("\nDiscovery completed.")
     print(f"Repositories accepted: {len(results)}")
+    print(f"Rejected by reason: {reasons}")
     print(f"Output: {OUTPUT_PATH}")
 
 
@@ -156,7 +171,7 @@ if __name__ == "__main__":
         "--limit",
         type=int,
         default=None,
-        help="Maximum repositories to retrieve"
+        help="Maximum repositories to retrieve",
     )
 
     args = parser.parse_args()
